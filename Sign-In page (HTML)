@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="sign-in.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <a href="index.html"><img src="logo.png" alt="" height="65px" width="160px" style="margin-left: 160px; margin-top:15px "></a>
+        </header>
+        <div class="container">
+            <h1>Sign In</h1>
+            <input type="text" class="mail" placeholder="Email or Phone Number" style="color: white; font-weight: 500;">
+            <input type="text" class="mail" placeholder="Password" style="color: white; font-weight: 500;">
+            <div class="signin"> <a href="get.html">Sign In</a></div>
+            <div class="h1">OR</div>
+            <div class="or-use"> <a href="get.html">Use a sign-in code</a></div>
+            <div class="forgot"><a href="forgot.html">Forgot password?</a></div>
+            <div class="checke">
+                <input type="checkbox" id="check">
+                <label for="check" >  Remember me</label>
+            </div>
+            <div class="new">
+                New to Netflix?
+                <a href="index.html">Sign up now.</a>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="tele" style="padding-bottom: 30px; margin-left: 140px;">
+            Questions? Call
+            <a href="tel: 000-800-919-1743"> 00100-800-919-1743</a>
+        </div>
+        <nav>
+            <ul>
+                <li style="margin-left: 36px;"><a href="https://help.netflix.com/en/node/412"> FAQ</a></li>
+                <li style="padding-left: 129px;"><a href="https://help.netflix.com/en"> Help Centre</a></li>
+                <li style="padding-left: 51px;"><a href="https://help.netflix.com/legal/termsofuse"> Terms of Use</a>
+                </li>
+                <li style="padding-left: 101px;"><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li style="margin-left: 36px;"><a href="invret.html">Cookie Preferences</a></li>
+                <li style="padding-left: 40px;"><a href="https://help.netflix.com/en/node/134094"> Corporate
+                        Information</a></li>
+            </ul>
+        </nav>
+        <nav>
+
+            <select data-placeholder="English" alt="English" style="font-size: 15px; font-weight: 400;">
+                <option value="EN">English</option>
+                <option value="HI">हिंदी</option>
+            </select>
+
+        </nav>
+    </footer>
+</body>
+
+</html>
