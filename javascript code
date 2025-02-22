@@ -1,0 +1,167 @@
+function hideseek(){
+    let click1 = document.querySelector('.heed1');
+let hide1 = document.querySelector('.middle1');
+let hide2 = document.querySelector('.middle2')
+let cross1 = document.querySelector('#plus1');
+var display = 0
+click1.addEventListener('click', () => {
+    if (display == 0) {
+        hide1.style.height = '38vh'
+        cross1.style.rotate = '45deg'
+        cross1.style.transition = 'rotate 0.2s'
+        display = 1
+        hide2.style.height = '0'
+        cross2.style.rotate = '0deg'
+        hide3.style.height = '0'
+        cross3.style.rotate = '0deg'
+        hide4.style.height = '0'
+        cross4.style.rotate = '0deg'
+        hide5.style.height = '0'
+        cross5.style.rotate = '0deg'
+        hide6.style.height = '0'
+        cross6.style.rotate = '0deg'
+    }
+    else {
+        hide1.style.height = '0'
+        cross1.style.rotate = '0deg'
+        display = 0
+    }
+
+});
+let click2 = document.querySelector('.heed2');
+let cross2 = document.querySelector('#plus2');
+click2.addEventListener('click', () => {
+    if (display == 0) {
+        hide2.style.height = '18.5vh'
+        cross2.style.rotate = '45deg'
+        cross2.style.transition = 'rotate 0.2s'
+        display = 1
+        hide1.style.height = '0'
+        cross1.style.rotate = '0deg'
+        hide3.style.height = '0'
+        cross3.style.rotate = '0deg'
+        hide4.style.height = '0'
+        cross4.style.rotate = '0deg'
+        hide5.style.height = '0'
+        cross5.style.rotate = '0deg'
+        hide6.style.height = '0'
+        cross6.style.rotate = '0deg'
+    }
+    else {
+        hide2.style.height = '0'
+        cross2.style.rotate = '0deg'
+        display = 0
+    }
+
+});
+let click3 = document.querySelector('.heed3');
+let cross3 = document.querySelector('#plus3');
+let hide3 = document.querySelector('.middle3')
+click3.addEventListener('click', () => {
+    if (display == 0) {
+        hide3.style.height = '46vh'
+        cross3.style.rotate = '45deg'
+        cross3.style.transition = 'rotate 0.2s'
+        display = 1
+        hide1.style.height = '0'
+        cross1.style.rotate = '0deg'
+        hide2.style.height = '0'
+        cross2.style.rotate = '0deg'
+        hide4.style.height = '0'
+        cross4.style.rotate = '0deg'
+        hide5.style.height = '0'
+        cross5.style.rotate = '0deg'
+        hide6.style.height = '0'
+        cross6.style.rotate = '0deg'
+    }
+    else {
+        hide3.style.height = '0'
+        cross3.style.rotate = '0deg'
+        display = 0
+    }
+
+});
+let click4 = document.querySelector('.heed4');
+let cross4 = document.querySelector('#plus4');
+let hide4 = document.querySelector('.middle4')
+click4.addEventListener('click', () => {
+    if (display == 0) {
+        hide4.style.height = '23vh'
+        cross4.style.rotate = '45deg'
+        cross4.style.transition = 'rotate 0.2s'
+        display = 1
+        hide1.style.height = '0'
+        cross1.style.rotate = '0deg'
+        hide2.style.height = '0'
+        cross2.style.rotate = '0deg'
+        hide3.style.height = '0'
+        cross3.style.rotate = '0deg'
+        hide5.style.height = '0'
+        cross5.style.rotate = '0deg'
+        hide6.style.height = '0'
+        cross6.style.rotate = '0deg'
+    }
+    else {
+        hide4.style.height = '0'
+        cross4.style.rotate = '0deg'
+        display = 0
+    }
+
+});
+let click5 = document.querySelector('.heed5');
+let cross5 = document.querySelector('#plus5');
+let hide5 = document.querySelector('.middle5')
+click5.addEventListener('click', () => {
+    if (display == 0) {
+        hide5.style.height = '18vh'
+        cross5.style.rotate = '45deg'
+        cross5.style.transition = 'rotate 0.2s'
+        display = 1
+        hide1.style.height = '0'
+        cross1.style.rotate = '0deg'
+        hide2.style.height = '0'
+        cross2.style.rotate = '0deg'
+        hide3.style.height = '0'
+        cross3.style.rotate = '0deg'
+        hide4.style.height = '0'
+        cross4.style.rotate = '0deg'
+        hide6.style.height = '0'
+        cross6.style.rotate = '0deg'
+    }
+    else {
+        hide5.style.height = '0'
+        cross5.style.rotate = '0deg'
+        display = 0
+    }
+
+});
+let click6 = document.querySelector('.heed6');
+let cross6 = document.querySelector('#plus6');
+let hide6 = document.querySelector('.middle6')
+click6.addEventListener('click', () => {
+    if (display == 0) {
+        hide6.style.height = '32vh'
+        cross6.style.rotate = '45deg'
+        cross6.style.transition = 'rotate 0.2s'
+        display = 1
+        hide1.style.height = '0'
+        cross1.style.rotate = '0deg'
+        hide2.style.height = '0'
+        cross2.style.rotate = '0deg'
+        hide3.style.height = '0'
+        cross3.style.rotate = '0deg'
+        hide4.style.height = '0'
+        cross4.style.rotate = '0deg'
+        hide5.style.height = '0'
+        cross5.style.rotate = '0deg'
+    }
+    else {
+        hide6.style.height = '0'
+        cross6.style.rotate = '0deg'
+        display = 0
+    }
+
+});
+
+}
+hideseek()
