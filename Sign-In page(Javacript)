@@ -1,0 +1,25 @@
+let EmailClick= document.querySelector('.emailll');
+let NumberClick=document.querySelector('.numberrr');
+let emailPara= document.querySelector('.ptremal');
+let bar=document.querySelector('.input-field');
+let button= document.querySelector('.btnn');
+let hide= document.querySelector('.paras');
+let LearnMore= document.querySelector('.red');
+
+NumberClick.addEventListener('click',()=>{
+    emailPara.innerHTML='We will text you a verification code to reset your password. Message and data rates may apply.';
+    button.innerHTML='Text Me';
+    bar.ariaPlaceholder='Number';
+    document.getElementById("enter-email").placeholder="Mobile Number";
+    bar.style.maxWidth='80%';
+});
+EmailClick.addEventListener('click',()=>{
+    emailPara.innerHTML='We will send you an email with instructions on how to reset your password.';
+    button.innerHTML='Email Me';
+    document.getElementById("enter-email").placeholder="name@example.com";
+    bar.style.maxWidth='100%';
+})
+hide.classList.remove('paras');
+LearnMore.addEventListener('click',()=>{
+    hide.classList.add('paras');
+})
